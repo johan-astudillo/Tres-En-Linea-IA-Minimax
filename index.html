@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+		Tic Tac Toe with Minimax AI Algorithm
+		Author: Clederson Cruz
+		Year: 2017
+		License: GNU GENERAL PUBLIC LICENSE (GPL)
+		-->
+
+		<meta charset="UTF-8" />
+		<meta content="" name="Johan Astudillo Y Luis pedraza" />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="minimax_clase/style.css" />
+		<script type="text/javascript" src="minimax_clase/script.js"></script>
+		<title>Jogo da Velha - Minimax</title>
+	</head>
+	<body>
+		<header>
+			<p>Minimax Johan Astudillo y Luis Pedraza</p>
+		</header>
+			<br />
+			<p id="message"></p>
+			<br />
+		<table id="tab-tic-tac-toe" cellspacing="0">
+			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
+		</table>
+		<br><br>
+		<input type="button" value="IA Comienza" id="bnt-Reiniciar" onclick="ReiniciarBnt(this)"/>
+		<br />
+		<footer>
+
+	</body>
+</html>
